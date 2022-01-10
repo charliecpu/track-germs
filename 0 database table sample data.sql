@@ -1,3 +1,3 @@
-create database germs
+create database germsDB
 go
-create table germ(id int not null identity primary key, germname varchar(10) not null)
+create table dbo.germ(id int not null identity primary key, germname varchar(255) not null)
